@@ -8,7 +8,7 @@ import { FormControl, Input, Button, useForkRef } from '@mui/material';
 
 const inter = Inter({ subsets: ['latin'] })
 
-const apiUrl = "https://localhost:7132"
+const apiUrl = "https://localhost:5000"
 
 export default function TestUpload() {
   const [userValue, setUserValue] = useState({
