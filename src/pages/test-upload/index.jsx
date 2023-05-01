@@ -8,7 +8,7 @@ import { FormControl, Input, Button, useForkRef } from '@mui/material';
 
 const inter = Inter({ subsets: ['latin'] })
 
-const apiUrl = "https://localhost:5000"
+const apiUrl = "https://asl-api.azurewebsites.net"
 
 export default function TestUpload() {
   const [userValue, setUserValue] = useState({
